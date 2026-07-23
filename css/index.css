@@ -1,0 +1,22 @@
+body { margin: 0; padding: 0; }
+
+.cabecalho {
+    background: radial-gradient(
+        circle at center,
+        #1E3A8A 0%,   /* azul mais claro no centro */
+        #0A1F44 60%,  /* azul-marinho intermediário */
+        #000814 100%  /* quase preto nas bordas */
+    );
+    color: var(--text-main);
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+}
