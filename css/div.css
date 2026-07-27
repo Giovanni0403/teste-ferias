@@ -12,15 +12,15 @@
 } */
 
 /* conteudo com id(conteudo) */
-/* #conteudo{
+#conteudo{
     background-color: #dc543c;
     color: white;
     text-align: center;
-}  */
+} 
 
 
 /* conteudo com class(conteudo)  */
-/* .container{
+.container{
     width: 300px;
     height: 50px;
     margin: 10px;
@@ -31,11 +31,11 @@
 }
 .bg-blue {background-color: blue;}
 .bg-red {background-color: red;}
-.bg-green {background-color: green} */
+.bg-green {background-color: green}
 
 
 /* conteudo dentro de uma imagem de fundo, com gradiente e opacidade, com texto e link estilizados. */
-/* div{
+.imagem{
     background-color: #900;
     background-attachment: fixed;
     width: 80%;
@@ -50,19 +50,19 @@
     background-position: 50%;
     border-radius: 7px;
 }
-div h2{
+.imagem h2{
     font-size: 45px;
     margin: 50px 30px;
     color : white;
 }
-div p{
+.imagem p{
     margin: 30px 30px 60px;
     width: 40%;
     font-size: 18px;
     color: white;
     font-weight: 700;
 }
-div a{
+.imagem a{
     margin: 30px;
     text-decoration: none;
     border: 2px solid rgb(82, 147, 211);
@@ -73,20 +73,22 @@ div a{
     font-weight: 600;
 }
 
-div a:hover{
+.imagem a:hover{
     background-color: transparent;
     color : rgb(82, 147, 211);
-} */
+}
 
 .box{
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 100px;
     background-color: #f2f2f2;
     border: 1px solid black;
     text-align: center;
+    margin: 20px;
     padding: 20px;
 }
-/* .box:nth-child(4){
+
+/* .box:nth-child(5){
     background-color: rgb(0, 191, 255);
 } */
 
@@ -103,21 +105,24 @@ div a:hover{
     color: white;
 } */
 
+/* mudança na primeira linha ou quando selecionar */
 /* p::first-line{
     background-color: rgb(0, 191, 255);
     color: white;
     font-weight: 200;
 } */
-/* p::selection{
+p::selection{
     background-color: rgb(0, 191, 255);
     color: white;
-} */
+}
+
+/* acrescentar conteudo antes ou dps do que ja tem no html */
 /* .box::after{
     content: "Conteudo desejado";
     background-color: #ccc;
     padding: 10px;
-}
-.box::before{
+} */
+/* .box::before{
     content: "Conteudo desejado";
     background-color: #ccc;
     padding: 10px;

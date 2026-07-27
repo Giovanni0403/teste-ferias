@@ -6,6 +6,12 @@
     font-style: italic;
 }
 
+:root{
+    --bg-color: #ccc;
+    --margin-10: 10px;
+    --margin-30: 30px;
+    --margin-50: 50px;
+}
 
 body{
     max-width: 100%;
@@ -39,7 +45,7 @@ p{
     letter-spacing: 1px;
 }
 
-ul, ol, li{list-style: none;}
+/* ul, ol, li{list-style: none;} */
 
 .logo{
     width: 140px;
