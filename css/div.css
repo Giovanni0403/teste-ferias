@@ -1,4 +1,4 @@
-/* /* div{
+/* div{
     border: 2px solid black;
     background-color: #ccc;
     width: 300px;
@@ -21,8 +21,8 @@
 
 /* conteudo com class(conteudo)  */
 .container{
-    width: 300px;
-    height: 50px;
+    width: 25%;
+    height: 5%;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
@@ -39,7 +39,7 @@
     background-color: #900;
     background-attachment: fixed;
     width: 80%;
-    height: 900px;
+    height: 100%;
     margin: 10px auto;
     padding: 30px 0;
     box-sizing: border-box;
@@ -79,8 +79,8 @@
 }
 
 .box{
-    width: 600px;
-    height: 100px;
+    width: 40%;
+    height: 15%;
     background-color: #f2f2f2;
     border: 1px solid black;
     text-align: center;

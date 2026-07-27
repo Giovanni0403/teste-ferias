@@ -1,0 +1,45 @@
+.icon {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 45px; /* diminua aqui */
+  line-height: 1;
+  color: black;
+
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.copo{
+  width: 200px;
+  height: 150px;
+  background-color: #ccc;
+  margin: 10px;
+  display: inline-block;
+}
+
+.talher{
+  width: 80%;
+  min-height: 600px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  display: flex;
+  /* justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; */
+}
+.faca{
+  width: 200px;
+  height: 250px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 10px; 
+}
+.faca-1{ flex-basis: 150px;}
+.faca-2{ flex-basis: 350px;}
+.faca-3{ flex-basis: 500px;}

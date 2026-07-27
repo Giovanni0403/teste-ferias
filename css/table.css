@@ -1,7 +1,8 @@
 table{
+    text-align: center;
     border-collapse: collapse;
     width: 80%;
-    margin: 30px ;
+    margin: 30px auto;
     color: #333;
 }
 thead th{
@@ -29,10 +30,5 @@ tfoot td{
     font-weight: 900;
 }
 tbody tr:nth-child(even){
-    background-color: #f2f2f2;
-}
-
-th:nth-child(4), td:nth-child(4), th:first-child, td:first-child, th:last-child, td:last-child{
-    text-align: center;
-    width: 20%;
+    background-color: #e2e2e2;
 }
