@@ -36,8 +36,8 @@
 
 /* conteudo dentro de uma imagem de fundo, com gradiente e opacidade, com texto e link estilizados. */
 .imagem{
-    background-color: #900;
-    background-attachment: fixed;
+    /* background-color: #900;
+    background-attachment: fixed; */
     width: 80%;
     height: 100%;
     margin: 10px auto;
