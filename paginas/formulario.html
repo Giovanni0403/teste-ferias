@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form id="dados" name="dados" method="post" action="/aplicação">
+
+        <fieldset>
+            <legend>Campo Teste</legend>
+            <label for="usuario">Usuário</label>
+            <!-- <input type="text" id="usuario" name="usuario"> -->
+        </fieldset>
+        <fieldset>
+            <legend>Campo Password</legend>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha">
+        </fieldset>    
+        <fieldset>
+            <legend>Campo Email</legend>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Campo url</legend>
+            <label for="url">endereço</label>
+            <input type="url" id="url" name="url">
+        </fieldset>
+        <fieldset>
+            <legend>Campo busca</legend>
+            <label for="search">Pesquisa</label>
+            <input type="search" id="search" name="search">
+        </fieldset>
+        <fieldset>
+            <legend>Campo tel</legend>
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" name="celular">
+        </fieldset>
+        <fieldset>
+            <legend>Campo color</legend>
+            <label for="cor">Selecione uma cor</label>
+            <input type="color" id="cor" name="cor">
+        </fieldset>
+        <fieldset>
+            <legend>Campo Arquivo</legend>
+            <label for="arquivo">Selecione um arquivo</label>
+            <input type="file" id="arquivo" name="arquivo">
+        </fieldset>
+
+
+        <!-- formulario de data -->
+        <fieldset>
+            <legend>Campo Date</legend>
+            <label for="data">Campo de data</label>
+            <input type="date" id="data" name="data">
+        </fieldset>
+        <fieldset>
+            <legend>Campo Hora</legend>
+            <label for="hora">Selecione um hora</label>
+            <input type="time" id="hora" name="hora">
+        </fieldset>
+        <fieldset>
+            <legend>Campo DateTimeLocal</legend>
+            <label for="dataHora">Selecione uma Data/hora</label>
+            <input type="datetime-local" id="dataHora" name="dataHora">
+        </fieldset>
+        <fieldset>
+            <legend>Campo DateTimeLocal</legend>
+            <label for="dataHora">Selecione uma Data/hora</label>
+            <input type="datetime-local" id="dataHora" name="dataHora">
+        </fieldset>
+        <fieldset>
+            <legend>Campo Week</legend>
+            <label for="semana">Selecione uma semana</label>
+            <input type="week" id="semana" name="semana">
+        </fieldset>
+        <fieldset>
+            <legend>Campo month</legend>
+            <label for="mes">Selecione um mes</label>
+            <input type="month" id="mes" name="mes">
+        </fieldset>
+
+
+        <!-- formulario de numero -->
+        <fieldset>
+            <legend>Campo de numero</legend>
+            <label for="numero">Selecione numerico</label>
+            <input type="number" id="numero" name="numero"
+            min="10" max="100" step="5">
+        </fieldset>
+        <fieldset>
+            <legend>Campo range</legend>
+            <label for="escala">Selecione escala</label>
+            <input type="range" id="escala" name="escala" min="100" max="1000" step="50">
+        </fieldset>
+
+        <!-- campos de radio e checkbox -->
+        <!-- importante terem os mesmos nomes -->
+         <fieldset>
+            <legend>Campo radio</legend>
+            <p>tipo de conta</p>
+            <input type="radio" name="conta" id="conta1" value="Free">
+            <label for="conta1">Free</label>
+            <input type="radio" name="conta" id="conta2" value="Basic">
+            <label for="conta2">Basic</label>
+            <input type="radio" name="conta" id="conta3" value="Plus">
+            <label for="conta3">Plus</label>
+            <input type="radio" name="conta" id="conta4" value="Premium">
+            <label for="conta4">Premium</label>
+        </fieldset>
+        <fieldset>
+            <legend>campo checkbox</legend>
+            <p>Preferencias</p>
+            <input type="checkbox" id="preferencia1" name="front-end" value="1">
+            <label for="preferencia1">front-end</label>
+            <input type="checkbox" id="preferencia2" name="back-end" value="2">
+            <label for="preferencia2">back-end</label>
+            <input type="checkbox" id="preferencia3" name="banco-dados" value="3">
+            <label for="preferencia3">banco de dados</label>
+        </fieldset>
+        <fieldset>
+            <legend>Select</legend>
+            <label for="atuacao">Área de atuação</label>
+            <select name="atuacao" id="atuacao">
+                <option value="0" disabled selected>Selecione sua opção</option>
+                <option value="1">Front-end</option>
+                <option value="2">Back-end</option>
+                <option value="3">Banco de dados</option>
+                <option value="4">Gestão de Projetos</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <!-- nao pode fechar o option -->
+            <legend>Datalist</legend>
+            <input list="linguagens" id="lista-linguagem">
+            <datalist id="linguagens">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="Java">
+                <option value="JavaScript">
+                <option value="TypeScript">
+            </datalist>
+        </fieldset>
+
+        <!-- texto para uma quantidade de linhas e palavras -->
+         <fieldset>
+            <legend>Campo Textarea</legend>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem"></textarea>
+         </fieldset>
+
+         <!-- botoes ao final do formulario -->
+          <fieldset>
+            <legend>Botões - input</legend>
+            <input type="submit" name="" id="" value="Criar Conta">
+            <input type="reset" name="" id="" value="Limpar Dados">
+            <input type="button" name="" id="" value="Chamar JavaScript">
+         </fieldset>
+         <fieldset>
+            <legend>Botões - button</legend>
+            <button type="submit">Criar Conta</button>
+            <button type="reset">Limpar Dados</button>
+            <button type="button">Chamar JavaScript</button>
+         </fieldset>
+
+         <!-- Atributos Importantes -->
+          <fieldset>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" required placeholder="Ex: user123456" minlength="5" maxlength="">
+          </fieldset>
+          <fieldset>
+            <input type="submit" value="Enviar Dados">
+          </fieldset>
+          
+    </form>
+</body>
+</html>
